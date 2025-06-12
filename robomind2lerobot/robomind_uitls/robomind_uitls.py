@@ -5,7 +5,7 @@ import h5py
 import numpy as np
 
 
-def decode_images(camera_key, input_images):
+def decode_images(camera_key, input_images, bgr2rgb: bool = False):
     if "depth" not in camera_key:
         rgb_images = []
         camera_rgb_images = input_images
@@ -18,6 +18,8 @@ def decode_images(camera_key, input_images):
                     rgb = rgb.reshape(720, 1280, 3)
                 elif rgb.size == 921600:
                     rgb = rgb.reshape(480, 640, 3)
+            if bgr2rgb:
+                rgb = rgb[..., ::-1]
             rgb_images.append(rgb)
         rgb_images = np.asarray(rgb_images)
         return rgb_images
@@ -40,7 +42,7 @@ def decode_images(camera_key, input_images):
         return depth_images
 
 
-def load_local_dataset(episode_path: Path, config: dict, save_depth: bool):
+def load_local_dataset(episode_path: Path, config: dict, save_depth: bool, bgr2rgb: bool = False):
     try:
         images = {}
         states = {}
@@ -53,7 +55,7 @@ def load_local_dataset(episode_path: Path, config: dict, save_depth: bool):
                     image_key = f"observations/rgb_images/{key}"
                 else:
                     continue
-                images[f"observation.images.{key}"] = decode_images(image_key, file[image_key])
+                images[f"observation.images.{key}"] = decode_images(image_key, file[image_key], bgr2rgb)
             for key in config["states"]:
                 states[f"observation.states.{key}"] = np.array(file[f"puppet/{key}"], dtype=np.float32)
             for key in config["actions"]:

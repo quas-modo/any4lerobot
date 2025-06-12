@@ -272,9 +272,15 @@ def save_as_lerobot_dataset(task: tuple[dict, Path, str], src_path, benchmark, e
     task_type, splits, local_dir, task_instruction = task
 
     config = ROBOMIND_CONFIG[embodiment]
-    # HACK: not consistent image shape...
+    # HACK:
+    # 1. not consistent image shape...
+    # 2. franka and ur image is bgr...
+    bgr2rgb = False
     if "1_0" in benchmark:
         match embodiment:
+            case "franka_1rgb" | "franka_3rgb" | "franka_fr3_dual" | "ur_1rgb":
+                bgr2rgb = True
+
             case "tienkung_gello_1rgb":
                 if task_type in (
                     "clean_table_2_241211",
@@ -322,7 +328,7 @@ def save_as_lerobot_dataset(task: tuple[dict, Path, str], src_path, benchmark, e
         else:
             action_config = {}
         for episode_path in path.glob("**/trajectory.hdf5"):
-            status, raw_dataset, err = load_local_dataset(episode_path, config, save_depth)
+            status, raw_dataset, err = load_local_dataset(episode_path, config, save_depth, bgr2rgb)
             if status and len(raw_dataset) >= 50:
                 for frame_data in raw_dataset:
                     frame_data.update({"task": task_instruction})

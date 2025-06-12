@@ -2,6 +2,34 @@
 
 RoboMIND (Multi-embodiment Intelligence Normative Data for Robot Manipulation), a dataset containing 107k demonstration trajectories across 479 diverse tasks involving 96 object classes. RoboMIND is collected through human teleoperation and encompasses comprehensive robotic-related information, including multi-view observations, proprioceptive robot state information, and linguistic task descriptions.. (Copied from [docs](https://x-humanoid-robomind.github.io/))
 
+## ⚠️ Dirty Tasks
+
+|              Task ID              |                      Reason                      |
+| :-------------------------------: | :----------------------------------------------: |
+|          3_eggplantOven           |           take - turn on, wrong order            |
+|         3_eggplantoven_2          |           take - turn on, wrong order            |
+|            5_eggoven_2            |                  no instruction                  |
+|           10_packplate            |           no plate marker, no plate 2            |
+|          10_packplate_2           |           no plate marker, no plate 2            |
+|            11_brushcup            |                     two cups                     |
+|            12_packcup             |                  no cup marker                   |
+|            13_packbowl            |      no bowl marker, blue - greeen flipped       |
+|           35_putcarrot            |                  no instruction                  |
+|           36_putpepper            |                  no instruction                  |
+|             37_putegg             |                  no instruction                  |
+|           39_puttomato            |                  no instruction                  |
+|           40_putavocado           |                  no instruction                  |
+|            41_putplum             |                  no instruction                  |
+|         42_putkiwifruite          |               wrong word: wifruite               |
+|           43_packplate            |      last object should be "them", not "it"      |
+|    44_putbluebowlongreenplate     |      last object should be "them", not "it"      |
+|    45_putgreenbowlonblueplate     |     only one instruction, but two sub-tasks      |
+|     46_putredbowlonwhiteplate     |     only one instruction, but two sub-tasks      |
+| 48_putpotatogreenplatefromsteam_2 | last action is about "left arm", not "right arm" |
+|           52_holdercup            |   wrong order: should be right - left - right    |
+|            53_stackcup            |   wrong order: should be right - left - right    |
+|        to be continued ...        |                                                  |
+
 ## 🚀 What's New in This Script
 
 In this dataset, we have made several key improvements:
@@ -96,7 +124,8 @@ Dataset Structure of `meta/info.json`:
 
 ## Get started
 
-> [!IMPORTANT]  
+> [!IMPORTANT]
+>
 > 1. If you want to save depth when converting the dataset, modify `_assert_type_and_shape()` function in [lerobot.common.datasets.compute_stats.py](https://github.com/huggingface/lerobot/blob/main/lerobot/common/datasets/compute_stats.py).
 >
 > ```python
@@ -119,8 +148,9 @@ Dataset Structure of `meta/info.json`:
 >                     if "depth" in fkey and v.shape != (1, 1, 1):
 >                         raise ValueError(f"Shape of '{k}' must be (1,1,1), but is {v.shape} instead.")
 > ```
-> 
+>
 > 2. The dataset needs to be organized into the following format before running the script due to differences in storage formats across platforms:
+>
 > ```bash
 > /path/to/robomind/
 > ├── benchmark1_0_release
