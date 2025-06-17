@@ -37,13 +37,14 @@ A curated collection of utilities for [LeRobot Projects](https://github.com/hugg
   - [x] [RoboMIND to LeRobot](./robomind2lerobot/README.md)
   - [x] [LeRobot to RLDS](./lerobot2rlds/README.md)
 
+- **Dataset Process Utils**:
+
+  - [x] [Dataset Merging](./dataset_merging/README.md)
+
 - ​**Version Conversion​**​:
 
-  - [x] [LeRobotv2.0 to LeRobotv2.1](./utils/version_convert/README.md)
+  - [x] [LeRobotv2.0 to LeRobotv2.1](./ds_version_convert/README.md)
   - [ ] LeRobotv2.1 to LeRobotv2.0
-
-- **Other Utils**:
-  - [x] [Dataset Merging](./utils/dataset_merging/README.md)
 
 ## 📚 Awesome works supporting LeRobot
 
