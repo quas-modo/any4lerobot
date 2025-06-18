@@ -46,20 +46,43 @@ A curated collection of utilities for [LeRobot Projects](https://github.com/hugg
   - [x] [LeRobotv2.0 to LeRobotv2.1](./ds_version_convert/README.md)
   - [ ] LeRobotv2.1 to LeRobotv2.0
 
-## 📚 Awesome works supporting LeRobot
+## 📚 Awesome LeRobot
 
-- [SpatialVLA](https://github.com/SpatialVLA/SpatialVLA): a spatial-enhanced vision-language-action model that is trained on 1.1 Million real robot episodes ![GitHub Repo stars](https://img.shields.io/github/stars/SpatialVLA/SpatialVLA)
-- [lerobotdepot](https://github.com/maximilienroberti/lerobotdepot): a reoi for hardware, components, and 3D-printable projects compatible with the LeRobot library ![GitHub Repo stars](https://img.shields.io/github/stars/maximilienroberti/lerobotdepot)
-- [openpi](https://github.com/Physical-Intelligence/openpi): the official implemenation of $π_0$: A Vision-Language-Action Flow Model for General Robot Control ![GitHub Repo stars](https://img.shields.io/github/stars/Physical-Intelligence/openpi)
-- [Isaac-GR00T](https://github.com/NVIDIA/Isaac-GR00T): NVIDIA Isaac GR00T N1 is the world's first open foundation model for generalized humanoid robot reasoning and skills ![GitHub Repo stars](https://img.shields.io/github/stars/NVIDIA/Isaac-GR00T)
-- [unitree_IL_lerobot](https://github.com/unitreerobotics/unitree_IL_lerobot): a training framework enabling the training and testing of data collected using Unitree's G1 robot ![GitHub Repo stars](https://img.shields.io/github/stars/unitreerobotics/unitree_IL_lerobot)
-- [LeRobotTutorial-CN](https://github.com/CSCSX/LeRobotTutorial-CN): a tutorial for LeRobot in Chinese ![GitHub Repo stars](https://img.shields.io/github/stars/CSCSX/LeRobotTutorial-CN)
+### Model
 
-## 📂 Public Resources
+- [SmolVLA](https://huggingface.co/blog/smolvla): Efficient Vision-Language-Action Model trained on Lerobot Community Data [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/huggingface/lerobot">](https://github.com/huggingface/lerobot)
+- [SpatialVLA](https://spatialvla.github.io/): a spatial-enhanced vision-language-action model that is trained on 1.1 Million real robot episodes [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/SpatialVLA/SpatialVLA">](https://github.com/SpatialVLA/SpatialVLA)
+- [openpi](https://www.physicalintelligence.company/blog/pi0): the official implemenation of $π_0$: A Vision-Language-Action Flow Model for General Robot Control [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Physical-Intelligence/openpi">](https://github.com/Physical-Intelligence/openpi)
+- [Isaac-GR00T](https://developer.nvidia.com/isaac/gr00t): NVIDIA Isaac GR00T N1 is the world's first open foundation model for generalized humanoid robot reasoning and skills [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/NVIDIA/Isaac-GR00T">](https://github.com/NVIDIA/Isaac-GR00T)
 
-- Available datasets in LeRobot format:
-  - [Open X-Embodiment Dataset](https://huggingface.co/IPEC-COMMUNITY)
-  - [Open X-Embodiment Visualizer](https://huggingface.co/spaces/IPEC-COMMUNITY/openx_dataset_lerobot_v2.0)
+### Dataset
+
+- [Official](https://huggingface.co/lerobot): State-of-the-art Machine Learning for real-world robotics.
+- [IPEC-COMMUNITY/OpenX](https://huggingface.co/collections/IPEC-COMMUNITY/openx-lerobot-67c29b2ee5911f17dbea635e): Open X-Embodiment datasets in LeRobot format with standard transfomation
+- [weijian-sun/agibotworld-lerobot](https://huggingface.co/datasets/weijian-sun/agibotworld-lerobot): AgibotWorld-LeRobot v2.0
+
+### Embodiment Extensions
+
+- [unitree_IL_lerobot](https://github.com/unitreerobotics/unitree_IL_lerobot): a training framework enabling the training and testing of data collected using Unitree's G1 robot [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/unitreerobotics/unitree_IL_lerobot">](https://github.com/unitreerobotics/unitree_IL_lerobot)
+- [Dora-LeRobot](https://github.com/dora-rs/dora-lerobot): Lerobot boosted with dora [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/dora-rs/dora-lerobot">](https://github.com/dora-rs/dora-lerobot)
+- [Fourier-Lerobot](https://github.com/FFTAI/fourier-lerobot): A training pipeline with Fourier dataset [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/FFTAI/fourier-lerobot">](https://github.com/FFTAI/fourier-lerobot)
+
+### Hardware
+
+- [LeKiwi](https://github.com/SIGRobotics-UIUC/LeKiwi): Low-Cost Mobile Manipulator [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/SIGRobotics-UIUC/LeKiwi">](https://github.com/SIGRobotics-UIUC/LeKiwi)
+- [XLeRobot](https://github.com/Vector-Wangel/XLeRobot): Fully Autonomous Household Dual-Arm Mobile Robot for $998 [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Vector-Wangel/XLeRobot">](https://github.com/Vector-Wangel/XLeRobot)
+- [LeRobot-Kinematics](https://github.com/box2ai-robotics/lerobot-kinematics): Simple and Accurate Forward and Inverse Kinematics Examples for the Lerobot SO100 ARM [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/box2ai-robotics/lerobot-kinematics">](https://github.com/box2ai-robotics/lerobot-kinematics)
+- [lerobotdepot](https://github.com/maximilienroberti/lerobotdepot): a reoi for hardware, components, and 3D-printable projects compatible with the LeRobot library [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/maximilienroberti/lerobotdepot">](https://github.com/maximilienroberti/lerobotdepot)
+
+### Tutorial
+
+- [Official Docs](https://huggingface.co/docs/lerobot/en/getting_started_real_world_robot): This tutorial will explain how to train a neural network to control a real robot autonomously.
+- [YouTube: LeRobot Tutorials](https://www.youtube.com/playlist?list=PLo2EIpI_JMQu5zrDHe4NchRyumF2ynaUN)
+- [LeRobot Tutorial with MuJoCo](https://github.com/jeongeun980906/lerobot-mujoco-tutorial): Examples for collecting data and training with MuJoCo [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/jeongeun980906/lerobot-mujoco-tutorial">](https://github.com/jeongeun980906/lerobot-mujoco-tutorial)
+- [LeRobot Sim2Real](https://github.com/StoneT2000/lerobot-sim2real): Train in fast simulation and deploy visual policies zero shot to the real world [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/StoneT2000/lerobot-sim2real">](https://github.com/StoneT2000/lerobot-sim2real)
+- [LeRobotTutorial-CN](https://github.com/CSCSX/LeRobotTutorial-CN): a tutorial for LeRobot in Chinese [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/CSCSX/LeRobotTutorial-CN">](https://github.com/CSCSX/LeRobotTutorial-CN)
+- [PathOn.AI](https://learn-robotics.pathon.ai/): Learn Robotics at PathOn.AI is a platform for learning robotics and AI
+- [NVIDIA Jetson Tutorials](https://www.jetson-ai-lab.com/lerobot.html)
 
 ## 👷‍♂️ Contributing
 
