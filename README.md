@@ -36,15 +36,24 @@ A curated collection of utilities for [LeRobot Projects](https://github.com/hugg
   - [x] [AgiBot-World to LeRobot](./agibot2lerobot/README.md)
   - [x] [RoboMIND to LeRobot](./robomind2lerobot/README.md)
   - [x] [LeRobot to RLDS](./lerobot2rlds/README.md)
+  - [ ] LIBERO to LeRobot
 
-- **Dataset Process Utils**:
+- **Training**:
+
+  - [ ] MultiLeRobotDataset
+
+- **Dataset Preprocess**:
 
   - [x] [Dataset Merging](./dataset_merging/README.md)
+  - [ ] Dataset Filtering
+  - [ ] Dataset Sampling
 
 - ​**Version Conversion​**​:
 
   - [x] [LeRobotv2.0 to LeRobotv2.1](./ds_version_convert/README.md)
   - [ ] LeRobotv2.1 to LeRobotv2.0
+
+- [**Want more features?**](https://github.com/Tavish9/any4lerobot/issues/new?template=feature-request.yml)
 
 ## 📚 Awesome LeRobot
 
@@ -59,6 +68,7 @@ A curated collection of utilities for [LeRobot Projects](https://github.com/hugg
 
 - [Official](https://huggingface.co/lerobot): State-of-the-art Machine Learning for real-world robotics.
 - [IPEC-COMMUNITY/OpenX](https://huggingface.co/collections/IPEC-COMMUNITY/openx-lerobot-67c29b2ee5911f17dbea635e): Open X-Embodiment datasets in LeRobot format with standard transfomation
+- [IPEC-COMMUNITY/LIBERO](https://huggingface.co/collections/IPEC-COMMUNITY/libero-benchmark-dataset-684837af28d465aa8b043950): LIBERO datasets in LeRobot format with standard transfomation and filtering
 - [weijian-sun/agibotworld-lerobot](https://huggingface.co/datasets/weijian-sun/agibotworld-lerobot): AgibotWorld-LeRobot v2.0
 
 ### Embodiment Extensions
