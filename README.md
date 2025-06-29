@@ -23,11 +23,14 @@ A curated collection of utilities for [LeRobot Projects](https://github.com/hugg
 - **\[2025.06.27\]** We have supported Data Conversion from LIBERO to LeRobot! 🔥🔥🔥
 - **\[2025.05.16\]** We have supported Data Conversion from LeRobot to RLDS! 🔥🔥🔥
 - **\[2025.05.12\]** We have supported Data Conversion from RoboMIND to LeRobot! 🔥🔥🔥
-- **\[2025.04.20\]** We add Dataset Version Converter for LeRobotv2.0 to LeRobotv2.1! 🔥🔥🔥
 - **\[2025.04.15\]** We add Dataset Merging Tool for merging multi-source lerobot datasets! 🔥🔥🔥
 - **\[2025.04.14\]** We have supported Data Conversion from AgiBotWorld to LeRobot! 🔥🔥🔥
+<details>
+<summary>More News</summary>
+
 - **\[2025.04.11\]** We change the repo from `openx2lerobot` to `any4lerobot`, making a ​​universal toolbox for LeRobot​​! 🔥🔥🔥
 - **\[2025.02.19\]** We have supported Data Conversion from Open X-Embodiment to LeRobot! 🔥🔥🔥
+</details>
 
 ## ✨ Features
 
@@ -61,6 +64,7 @@ A curated collection of utilities for [LeRobot Projects](https://github.com/hugg
 ### Model
 
 - [Hume](https://hume-vla.github.io): A Dual-System VLA with System2 Thinking [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/hume-vla/hume">](https://github.com/hume-vla/hume)
+- [OneTwoVLA](https://one-two-vla.github.io/): A Unified Vision-Language-Action Model with Adaptive Reasoning [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Fanqi-Lin/OneTwoVLA">](https://github.com/Fanqi-Lin/OneTwoVLA)
 - [SmolVLA](https://huggingface.co/blog/smolvla): Efficient Vision-Language-Action Model trained on Lerobot Community Data [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/huggingface/lerobot">](https://github.com/huggingface/lerobot)
 - [SpatialVLA](https://spatialvla.github.io/): a spatial-enhanced vision-language-action model that is trained on 1.1 Million real robot episodes [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/SpatialVLA/SpatialVLA">](https://github.com/SpatialVLA/SpatialVLA)
 - [openpi](https://www.physicalintelligence.company/blog/pi0): the official implemenation of $π_0$: A Vision-Language-Action Flow Model for General Robot Control [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Physical-Intelligence/openpi">](https://github.com/Physical-Intelligence/openpi)
@@ -78,6 +82,10 @@ A curated collection of utilities for [LeRobot Projects](https://github.com/hugg
 - [unitree_IL_lerobot](https://github.com/unitreerobotics/unitree_IL_lerobot): a training framework enabling the training and testing of data collected using Unitree's G1 robot [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/unitreerobotics/unitree_IL_lerobot">](https://github.com/unitreerobotics/unitree_IL_lerobot)
 - [Dora-LeRobot](https://github.com/dora-rs/dora-lerobot): Lerobot boosted with dora [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/dora-rs/dora-lerobot">](https://github.com/dora-rs/dora-lerobot)
 - [Fourier-Lerobot](https://github.com/FFTAI/fourier-lerobot): A training pipeline with Fourier dataset [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/FFTAI/fourier-lerobot">](https://github.com/FFTAI/fourier-lerobot)
+- [Adora-LeRobot](https://github.com/Ryu-Yang/adora-lerobot): a modified version of lerobot, specifically adapted for the Adora robot [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Ryu-Yang/adora-lerobot">](https://github.com/Ryu-Yang/adora-lerobot)
+- [BiLerobot](https://github.com/LiZhYun/BiLerobot): A bimanual robotics platform combining LeRobot and ManiSkill for advanced dual-arm manipulation tasks using the SO100 robot digital twin [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/LiZhYun/BiLerobot">](https://github.com/LiZhYun/BiLerobot)
+- [lerobot-piper](https://github.com/lykycy123/lerobot-piper): About
+Use Lerobot to collect piper robot arm data, and perform training and reasoning [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/lykycy123/lerobot-piper">](https://github.com/lykycy123/lerobot-piper)
 
 ### Hardware
 
@@ -92,9 +100,11 @@ A curated collection of utilities for [LeRobot Projects](https://github.com/hugg
 - [YouTube: LeRobot Tutorials](https://www.youtube.com/playlist?list=PLo2EIpI_JMQu5zrDHe4NchRyumF2ynaUN)
 - [LeRobot Tutorial with MuJoCo](https://github.com/jeongeun980906/lerobot-mujoco-tutorial): Examples for collecting data and training with MuJoCo [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/jeongeun980906/lerobot-mujoco-tutorial">](https://github.com/jeongeun980906/lerobot-mujoco-tutorial)
 - [LeRobot Sim2Real](https://github.com/StoneT2000/lerobot-sim2real): Train in fast simulation and deploy visual policies zero shot to the real world [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/StoneT2000/lerobot-sim2real">](https://github.com/StoneT2000/lerobot-sim2real)
+- [lerobot-hilserl-guide](https://github.com/michel-aractingi/lerobot-hilserl-guide): Guide and tutorial to run the HILSerl implementation of LeRobot [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/michel-aractingi/lerobot-hilserl-guide">](https://github.com/michel-aractingi/lerobot-hilserl-guide)
 - [LeRobotTutorial-CN](https://github.com/CSCSX/LeRobotTutorial-CN): a tutorial for LeRobot in Chinese [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/CSCSX/LeRobotTutorial-CN">](https://github.com/CSCSX/LeRobotTutorial-CN)
 - [PathOn.AI](https://learn-robotics.pathon.ai/): Learn Robotics at PathOn.AI is a platform for learning robotics and AI
 - [NVIDIA Jetson Tutorials](https://www.jetson-ai-lab.com/lerobot.html)
+- [lerobot-on-ascend](https://github.com/hexchip/lerobot-on-ascend): Tutorial of Deploying ACT on Huawei Ascend 310B [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/hexchip/lerobot-on-ascend">](https://github.com/hexchip/lerobot-on-ascend)
 
 ## 👷‍♂️ Contributing
 
