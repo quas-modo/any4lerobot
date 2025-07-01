@@ -33,7 +33,11 @@ def setup_logger():
 
 
 class SaveLerobotDataset(PipelineStep):
+    name = "Save Temp LerobotDataset"
+    type = "libero2lerobot"
+
     def __init__(self, tasks: list[tuple[Path, Path, str]]):
+        super().__init__()
         self.tasks = tasks
 
     def run(self, data=None, rank: int = 0, world_size: int = 1):
@@ -56,21 +60,21 @@ class SaveLerobotDataset(PipelineStep):
 
         raw_dataset = load_local_episodes(input_h5)
         for episode_index, episode_data in enumerate(raw_dataset):
-            for frame_data in episode_data:
-                dataset.add_frame(
-                    frame_data,
-                    task=task_instruction,
-                )
-            dataset.save_episode()
-            logger.info(f"process done for {dataset.repo_id}, episode {episode_index}, len {len(episode_data)}")
+            with self.track_time("saving episode"):
+                for frame_data in episode_data:
+                    dataset.add_frame(
+                        frame_data,
+                        task=task_instruction,
+                    )
+                dataset.save_episode()
+                logger.info(f"process done for {dataset.repo_id}, episode {episode_index}, len {len(episode_data)}")
 
 
 class AggregateDatasets(PipelineStep):
-    def __init__(
-        self,
-        raw_dirs: list[Path],
-        aggregated_dir: Path,
-    ):
+    name = "Aggregate Datasets"
+    type = "libero2lerobot"
+
+    def __init__(self, raw_dirs: list[Path], aggregated_dir: Path):
         super().__init__()
         self.raw_dirs = raw_dirs
         self.aggregated_dir = aggregated_dir
@@ -180,32 +184,37 @@ class AggregateDatasets(PipelineStep):
         aggr_index_shift = self.datasets_aggr_index_shift[dataset_index]
         task_index_to_aggr_task_index = self.datasets_task_index_to_aggr_task_index[dataset_index]
 
-        logger.info("Copy data")
-        for episode_index in range(meta.total_episodes):
-            aggr_episode_index = self.datasets_ep_idx_to_aggr_ep_idx[dataset_index][episode_index]
-            data_path = meta.root / meta.get_data_file_path(episode_index)
-            aggr_data_path = aggr_meta.root / aggr_meta.get_data_file_path(aggr_episode_index)
-            aggr_data_path.parent.mkdir(parents=True, exist_ok=True)
+        with self.track_time("aggregating dataset"):
+            logger.info("Copy data")
+            for episode_index in range(meta.total_episodes):
+                aggr_episode_index = self.datasets_ep_idx_to_aggr_ep_idx[dataset_index][episode_index]
+                data_path = meta.root / meta.get_data_file_path(episode_index)
+                aggr_data_path = aggr_meta.root / aggr_meta.get_data_file_path(aggr_episode_index)
+                aggr_data_path.parent.mkdir(parents=True, exist_ok=True)
 
-            # update index, episode_index and task_index
-            df = pd.read_parquet(data_path)
-            df["index"] += aggr_index_shift
-            df["episode_index"] += aggr_episode_index_shift
-            df["task_index"] = df["task_index"].map(task_index_to_aggr_task_index)
-            df.to_parquet(aggr_data_path)
+                # update index, episode_index and task_index
+                df = pd.read_parquet(data_path)
+                df["index"] += aggr_index_shift
+                df["episode_index"] += aggr_episode_index_shift
+                df["task_index"] = df["task_index"].map(task_index_to_aggr_task_index)
+                df.to_parquet(aggr_data_path)
 
-        logger.info("Copy videos")
-        for episode_index in range(meta.total_episodes):
-            aggr_episode_index = episode_index + aggr_episode_index_shift
-            for vid_key in meta.video_keys:
-                video_path = meta.root / meta.get_video_file_path(episode_index, vid_key)
-                aggr_video_path = aggr_meta.root / aggr_meta.get_video_file_path(aggr_episode_index, vid_key)
-                aggr_video_path.parent.mkdir(parents=True, exist_ok=True)
-                shutil.copy(video_path, aggr_video_path)
+            logger.info("Copy videos")
+            for episode_index in range(meta.total_episodes):
+                aggr_episode_index = episode_index + aggr_episode_index_shift
+                for vid_key in meta.video_keys:
+                    video_path = meta.root / meta.get_video_file_path(episode_index, vid_key)
+                    aggr_video_path = aggr_meta.root / aggr_meta.get_video_file_path(aggr_episode_index, vid_key)
+                    aggr_video_path.parent.mkdir(parents=True, exist_ok=True)
+                    shutil.copy(video_path, aggr_video_path)
 
 
 class DeleteTempData(PipelineStep):
+    name = "Delete Temp Data"
+    type = "libero2lerobot"
+
     def __init__(self, temp_dirs: list[Path]):
+        super().__init__()
         self.temp_dirs = temp_dirs
 
     def run(self, data=None, rank: int = 0, world_size: int = 1):
