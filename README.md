@@ -122,6 +122,12 @@ We appreciate all contributions to improving Any4LeRobot. Please refer to the co
 
 ## 🤝 Acknowledgements
 
-Special thanks to the [LeRobot teams](https://github.com/huggingface/lerobot) for making this great framework.
+Special thanks to the [LeRobot teams](https://github.com/huggingface/lerobot) for making this great framework. Thanks to everyone for supporting this project.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://reporoster.com/stars/dark/Tavish9/any4lerobot" />
+  <source media="(prefers-color-scheme: light)" srcset="https://reporoster.com/stars/Tavish9/any4lerobot" />
+  <img alt="github-stargazers" src="https://github.com/Tavish9/any4lerobot/stargazers" />
+</picture>
 
 <p align="right"><a href="#top">🔝Back to top</a></p>
