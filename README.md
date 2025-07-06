@@ -84,8 +84,7 @@ A curated collection of utilities for [LeRobot Projects](https://github.com/hugg
 - [Fourier-Lerobot](https://github.com/FFTAI/fourier-lerobot): A training pipeline with Fourier dataset [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/FFTAI/fourier-lerobot">](https://github.com/FFTAI/fourier-lerobot)
 - [Adora-LeRobot](https://github.com/Ryu-Yang/adora-lerobot): a modified version of lerobot, specifically adapted for the Adora robot [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Ryu-Yang/adora-lerobot">](https://github.com/Ryu-Yang/adora-lerobot)
 - [BiLerobot](https://github.com/LiZhYun/BiLerobot): A bimanual robotics platform combining LeRobot and ManiSkill for advanced dual-arm manipulation tasks using the SO100 robot digital twin [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/LiZhYun/BiLerobot">](https://github.com/LiZhYun/BiLerobot)
-- [lerobot-piper](https://github.com/lykycy123/lerobot-piper): About
-Use Lerobot to collect piper robot arm data, and perform training and reasoning [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/lykycy123/lerobot-piper">](https://github.com/lykycy123/lerobot-piper)
+- [lerobot-piper](https://github.com/lykycy123/lerobot-piper): About Use Lerobot to collect piper robot arm data, and perform training and reasoning [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/lykycy123/lerobot-piper">](https://github.com/lykycy123/lerobot-piper)
 
 ### Hardware
 
@@ -94,7 +93,7 @@ Use Lerobot to collect piper robot arm data, and perform training and reasoning 
 - [LeRobot-Kinematics](https://github.com/box2ai-robotics/lerobot-kinematics): Simple and Accurate Forward and Inverse Kinematics Examples for the Lerobot SO100 ARM [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/box2ai-robotics/lerobot-kinematics">](https://github.com/box2ai-robotics/lerobot-kinematics)
 - [lerobotdepot](https://github.com/maximilienroberti/lerobotdepot): a reoi for hardware, components, and 3D-printable projects compatible with the LeRobot library [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/maximilienroberti/lerobotdepot">](https://github.com/maximilienroberti/lerobotdepot)
 
-### Tutorial
+### Tutorial / Utils
 
 - [Official Docs](https://huggingface.co/docs/lerobot/en/getting_started_real_world_robot): This tutorial will explain how to train a neural network to control a real robot autonomously.
 - [YouTube: LeRobot Tutorials](https://www.youtube.com/playlist?list=PLo2EIpI_JMQu5zrDHe4NchRyumF2ynaUN)
@@ -105,10 +104,13 @@ Use Lerobot to collect piper robot arm data, and perform training and reasoning 
 - [PathOn.AI](https://learn-robotics.pathon.ai/): Learn Robotics at PathOn.AI is a platform for learning robotics and AI
 - [NVIDIA Jetson Tutorials](https://www.jetson-ai-lab.com/lerobot.html)
 - [lerobot-on-ascend](https://github.com/hexchip/lerobot-on-ascend): Tutorial of Deploying ACT on Huawei Ascend 310B [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/hexchip/lerobot-on-ascend">](https://github.com/hexchip/lerobot-on-ascend)
+- [lerobot_ws](https://github.com/Pavankv92/lerobot_ws): ROS 2 Package for LeRobot SO-ARM101 [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Pavankv92/lerobot_ws">](https://github.com/Pavankv92/lerobot_ws)
+- [lerobot-ros](https://github.com/astroyat/lerobot-ros): Running LeRobot and ROS 2 on custom LIDAR [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/astroyat/lerobot-ros">](https://github.com/astroyat/lerobot-ros)
+- [Physical AI Tools](https://github.com/ROBOTIS-GIT/physical_ai_tools): Physical AI Development Interface with LeRobot and ROS 2 [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ROBOTIS-GIT/physical_ai_tools">](https://github.com/ROBOTIS-GIT/physical_ai_tools)
 
 ## 👷‍♂️ Contributing
 
-We appreciate all contributions to improving Any4LeRobot. Please refer to the contributing guideline for the best practice.
+We appreciate all contributions to improving Any4LeRobot.
 
 <a href="https://github.com/Tavish9/any4lerobot/graphs/contributors" target="_blank">
   <table>
@@ -122,7 +124,9 @@ We appreciate all contributions to improving Any4LeRobot. Please refer to the co
 
 ## 🤝 Acknowledgements
 
-Special thanks to the [LeRobot teams](https://github.com/huggingface/lerobot) for making this great framework. Thanks to everyone for supporting this project.
+Special thanks to the [LeRobot teams](https://github.com/huggingface/lerobot) for making this great framework.
+
+Thanks to everyone for supporting this project.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://reporoster.com/stars/dark/Tavish9/any4lerobot" />
