@@ -76,6 +76,8 @@ A curated collection of utilities for [LeRobot Projects](https://github.com/hugg
 - [IPEC-COMMUNITY/OpenX](https://huggingface.co/collections/IPEC-COMMUNITY/openx-lerobot-67c29b2ee5911f17dbea635e): Open X-Embodiment datasets in LeRobot format with standard transfomation
 - [IPEC-COMMUNITY/LIBERO](https://huggingface.co/collections/IPEC-COMMUNITY/libero-benchmark-dataset-684837af28d465aa8b043950): LIBERO datasets in LeRobot format with standard transfomation and filtering
 - [weijian-sun/agibotworld-lerobot](https://huggingface.co/datasets/weijian-sun/agibotworld-lerobot): AgibotWorld-LeRobot v2.0
+- [GR00T-Dateset](https://huggingface.co/GR00T-Dateset): Isaac-GR00T training dataset
+- [nvidia/PhysicalAI-Robotics-GR00T-X-Embodiment-Sim](https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-GR00T-X-Embodiment-Sim): Isaac-GR00T training dataset
 
 ### Embodiment Extensions
 
@@ -85,6 +87,7 @@ A curated collection of utilities for [LeRobot Projects](https://github.com/hugg
 - [Adora-LeRobot](https://github.com/Ryu-Yang/adora-lerobot): a modified version of lerobot, specifically adapted for the Adora robot [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Ryu-Yang/adora-lerobot">](https://github.com/Ryu-Yang/adora-lerobot)
 - [BiLerobot](https://github.com/LiZhYun/BiLerobot): A bimanual robotics platform combining LeRobot and ManiSkill for advanced dual-arm manipulation tasks using the SO100 robot digital twin [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/LiZhYun/BiLerobot">](https://github.com/LiZhYun/BiLerobot)
 - [lerobot-piper](https://github.com/lykycy123/lerobot-piper): About Use Lerobot to collect piper robot arm data, and perform training and reasoning [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/lykycy123/lerobot-piper">](https://github.com/lykycy123/lerobot-piper)
+- [Lerobot-koch](https://github.com/LilyHuang-HZ/Lerobot-koch): LeRobot Training Notes for Koch Arm [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/LilyHuang-HZ/Lerobot-koch">](https://github.com/LilyHuang-HZ/Lerobot-koch)
 
 ### Hardware
 
@@ -92,6 +95,7 @@ A curated collection of utilities for [LeRobot Projects](https://github.com/hugg
 - [XLeRobot](https://github.com/Vector-Wangel/XLeRobot): Fully Autonomous Household Dual-Arm Mobile Robot for $998 [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Vector-Wangel/XLeRobot">](https://github.com/Vector-Wangel/XLeRobot)
 - [LeRobot-Kinematics](https://github.com/box2ai-robotics/lerobot-kinematics): Simple and Accurate Forward and Inverse Kinematics Examples for the Lerobot SO100 ARM [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/box2ai-robotics/lerobot-kinematics">](https://github.com/box2ai-robotics/lerobot-kinematics)
 - [lerobotdepot](https://github.com/maximilienroberti/lerobotdepot): a reoi for hardware, components, and 3D-printable projects compatible with the LeRobot library [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/maximilienroberti/lerobotdepot">](https://github.com/maximilienroberti/lerobotdepot)
+- [PingTi-Arm](https://github.com/nomorewzx/PingTi-Arm): A human-scale robotic arm compatible with Lerobot, based on SO100 [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/nomorewzx/PingTi-Arm">](https://github.com/nomorewzx/PingTi-Arm)
 
 ### Tutorial / Utils
 
@@ -107,6 +111,8 @@ A curated collection of utilities for [LeRobot Projects](https://github.com/hugg
 - [lerobot_ws](https://github.com/Pavankv92/lerobot_ws): ROS 2 Package for LeRobot SO-ARM101 [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Pavankv92/lerobot_ws">](https://github.com/Pavankv92/lerobot_ws)
 - [lerobot-ros](https://github.com/astroyat/lerobot-ros): Running LeRobot and ROS 2 on custom LIDAR [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/astroyat/lerobot-ros">](https://github.com/astroyat/lerobot-ros)
 - [Physical AI Tools](https://github.com/ROBOTIS-GIT/physical_ai_tools): Physical AI Development Interface with LeRobot and ROS 2 [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ROBOTIS-GIT/physical_ai_tools">](https://github.com/ROBOTIS-GIT/physical_ai_tools)
+- [LeRobot.js](https://github.com/TimPietrusky/lerobot.js): interact with your robot in JS, inspired by LeRobot [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/TimPietrusky/lerobot.js">](https://github.com/TimPietrusky/lerobot.js)
+- [LeLab](https://github.com/nicolas-rabault/leLab): A web UI interface on top of lerobot [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/nicolas-rabault/leLab">](https://github.com/nicolas-rabault/leLab)
 
 ## 👷‍♂️ Contributing
 
