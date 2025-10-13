@@ -95,6 +95,8 @@ A curated collection of utilities for [LeRobot Projects](https://github.com/hugg
 - [lerobot-piper](https://github.com/lykycy123/lerobot-piper): About Use Lerobot to collect piper robot arm data, and perform training and reasoning [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/lykycy123/lerobot-piper">](https://github.com/lykycy123/lerobot-piper)
 - [Lerobot-koch](https://github.com/LilyHuang-HZ/Lerobot-koch): LeRobot Training Notes for Koch Arm [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/LilyHuang-HZ/Lerobot-koch">](https://github.com/LilyHuang-HZ/Lerobot-koch)
 - [LeFranX](https://github.com/wengmister/LeFranX): Franka and XHand Extension for LeRobot [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/wengmister/LeFranX">](https://github.com/wengmister/LeFranX)
+- [U-Arm](https://github.com/MINT-SJTU/LeRobot-Anything-U-Arm): Lerobot-Everything-Cross-Embodiment-Teleoperation [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/MINT-SJTU/LeRobot-Anything-U-Arm">](https://github.com/MINT-SJTU/LeRobot-Anything-U-Arm)
+- [lerobot-robot-xarm](https://github.com/SpesRobotics/lerobot-robot-xarm): xArm integration for LeRobot [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/SpesRobotics/lerobot-robot-xarm">](https://github.com/SpesRobotics/lerobot-robot-xarm)
 
 ### Hardware
 
@@ -103,7 +105,6 @@ A curated collection of utilities for [LeRobot Projects](https://github.com/hugg
 - [LeRobot-Kinematics](https://github.com/box2ai-robotics/lerobot-kinematics): Simple and Accurate Forward and Inverse Kinematics Examples for the Lerobot SO100 ARM [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/box2ai-robotics/lerobot-kinematics">](https://github.com/box2ai-robotics/lerobot-kinematics)
 - [lerobotdepot](https://github.com/maximilienroberti/lerobotdepot): a reoi for hardware, components, and 3D-printable projects compatible with the LeRobot library [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/maximilienroberti/lerobotdepot">](https://github.com/maximilienroberti/lerobotdepot)
 - [PingTi-Arm](https://github.com/nomorewzx/PingTi-Arm): A human-scale robotic arm compatible with Lerobot, based on SO100 [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/nomorewzx/PingTi-Arm">](https://github.com/nomorewzx/PingTi-Arm)
-- [U-Arm](https://github.com/MINT-SJTU/LeRobot-Anything-U-Arm): Lerobot-Everything-Cross-Embodiment-Teleoperation [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/MINT-SJTU/LeRobot-Anything-U-Arm">](https://github.com/MINT-SJTU/LeRobot-Anything-U-Arm)
 
 ### Tutorial / Utils
 
@@ -122,6 +123,9 @@ A curated collection of utilities for [LeRobot Projects](https://github.com/hugg
 - [LeRobot.js](https://github.com/TimPietrusky/lerobot.js): interact with your robot in JS, inspired by LeRobot [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/TimPietrusky/lerobot.js">](https://github.com/TimPietrusky/lerobot.js)
 - [LeLab](https://github.com/nicolas-rabault/leLab): A web UI interface on top of lerobot [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/nicolas-rabault/leLab">](https://github.com/nicolas-rabault/leLab)
 - [LeRobot Episode Scoring Toolkit](https://github.com/RoboticsData/score_lerobot_episodes): One-click tool to score, filter, and export higher-quality LeRobot datasets [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/RoboticsData/score_lerobot_episodes">](https://github.com/RoboticsData/score_lerobot_episodes)
+- [LERO](https://github.com/masato-ka/lero): LeRobot dataset operations toolkit [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/masato-ka/lero">](https://github.com/masato-ka/lero)
+- [LeRobot Dataset Visualizer](https://github.com/huggingface/lerobot-dataset-visualizer): Web application for visualizing robotics datasets in LeRobot format [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/huggingface/lerobot-dataset-visualizer">](https://github.com/huggingface/lerobot-dataset-visualizer)
+- [lerobot_so101_teleop](https://github.com/liorbenhorin/lerobot_so101_teleop): Sample Environment for the LeRobot SO-101 Robot in Isaac Lab to collect demonstrations in a simulation [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/liorbenhorin/lerobot_so101_teleop">](https://github.com/liorbenhorin/lerobot_so101_teleop)
 
 ## 👷‍♂️ Contributing
 
