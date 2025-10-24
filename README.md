@@ -7,7 +7,7 @@
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Tavish9/any4lerobot)
 [![Python versions](https://img.shields.io/pypi/pyversions/lerobot)](https://www.python.org/downloads/)
 [![LeRobot Dataset](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/repos/tavish9/any4lerobot/commits?per_page=1&query=$[0].commit.committer.date&label=LeRobot&color=blue)](https://github.com/huggingface/lerobot)
-[![LeRobot Dataset](https://img.shields.io/badge/LeRobot%20Dataset-v2.1-ff69b4.svg)](https://github.com/huggingface/lerobot/pull/711)
+[![LeRobot Dataset](https://img.shields.io/badge/LeRobot%20Dataset-v3.0-ff69b4.svg)](https://github.com/huggingface/lerobot/pull/1412)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 </div>
@@ -18,16 +18,18 @@
 
 A curated collection of utilities for [LeRobot Projects](https://github.com/huggingface/lerobot), including data conversion scripts, preprocessing tools, training workflow helpers and etc..
 
-## 🚀 What's New <a><img width="35" height="20" src="https://user-images.githubusercontent.com/12782558/212848161-5e783dd6-11e8-4fe0-bbba-39ffb77730be.png"></a>
+## 📣 What's New <a><img width="35" height="20" src="https://user-images.githubusercontent.com/12782558/212848161-5e783dd6-11e8-4fe0-bbba-39ffb77730be.png"></a>
 
+- **\[2025.10.04\]** We have collected and updated all Dataset Version Conversion Scripts for LeRobot! 🔥🔥🔥
+- **\[2025.09.28\]** We have upgraded LeRobotDataset from v2.1 to v3.0! 🔥🔥🔥
 - **\[2025.06.27\]** We have supported Data Conversion from LIBERO to LeRobot! 🔥🔥🔥
 - **\[2025.05.16\]** We have supported Data Conversion from LeRobot to RLDS! 🔥🔥🔥
 - **\[2025.05.12\]** We have supported Data Conversion from RoboMIND to LeRobot! 🔥🔥🔥
-- **\[2025.04.15\]** We add Dataset Merging Tool for merging multi-source lerobot datasets! 🔥🔥🔥
-- **\[2025.04.14\]** We have supported Data Conversion from AgiBotWorld to LeRobot! 🔥🔥🔥
 <details>
 <summary>More News</summary>
 
+- **\[2025.04.15\]** We add Dataset Merging Tool for merging multi-source lerobot datasets! 🔥🔥🔥
+- **\[2025.04.14\]** We have supported Data Conversion from AgiBotWorld to LeRobot! 🔥🔥🔥
 - **\[2025.04.11\]** We change the repo from `openx2lerobot` to `any4lerobot`, making a ​​universal toolbox for LeRobot​​! 🔥🔥🔥
 - **\[2025.02.19\]** We have supported Data Conversion from Open X-Embodiment to LeRobot! 🔥🔥🔥
 </details>
@@ -52,10 +54,13 @@ A curated collection of utilities for [LeRobot Projects](https://github.com/hugg
   - [ ] Dataset Filtering
   - [ ] Dataset Sampling
 
-- ​**Version Conversion​**​:
+- ​[**Version Conversion​**​](./ds_version_convert/README.md):
 
-  - [x] [LeRobotv2.0 to LeRobotv2.1](./ds_version_convert/README.md)
-  - [ ] LeRobotv2.1 to LeRobotv2.0
+  - [x] [LeRobotv1.6 to LeRobotv2.0](./ds_version_convert/v16_to_v20/README.md)
+  - [x] [LeRobotv2.0 to LeRobotv2.1](./ds_version_convert/v20_to_v21/README.md)
+  - [x] [LeRobotv2.1 to LeRobotv2.0](./ds_version_convert/v21_to_v20/README.md)
+  - [x] [LeRobotv2.1 to LeRobotv3.0](./ds_version_convert/v21_to_v30/README.md)
+  - [ ] LeRobotv3.0 to LeRobotv2.1
 
 - [**Want more features?**](https://github.com/Tavish9/any4lerobot/issues/new?template=feature-request.yml)
 
@@ -63,6 +68,7 @@ A curated collection of utilities for [LeRobot Projects](https://github.com/hugg
 
 ### Model
 
+- [EO1](https://eo-robotics.ai/eo-1): An Open Unified Embodied Foundation Model for General Robot Control Trained on Interleaved Vision-Text-Action Data [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/EO-Robotics/EO1">](https://github.com/EO-Robotics/EO1)
 - [Hume](https://hume-vla.github.io): A Dual-System VLA with System2 Thinking [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/hume-vla/hume">](https://github.com/hume-vla/hume)
 - [OneTwoVLA](https://one-two-vla.github.io/): A Unified Vision-Language-Action Model with Adaptive Reasoning [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Fanqi-Lin/OneTwoVLA">](https://github.com/Fanqi-Lin/OneTwoVLA)
 - [SmolVLA](https://huggingface.co/blog/smolvla): Efficient Vision-Language-Action Model trained on Lerobot Community Data [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/huggingface/lerobot">](https://github.com/huggingface/lerobot)
@@ -88,6 +94,9 @@ A curated collection of utilities for [LeRobot Projects](https://github.com/hugg
 - [BiLerobot](https://github.com/LiZhYun/BiLerobot): A bimanual robotics platform combining LeRobot and ManiSkill for advanced dual-arm manipulation tasks using the SO100 robot digital twin [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/LiZhYun/BiLerobot">](https://github.com/LiZhYun/BiLerobot)
 - [lerobot-piper](https://github.com/lykycy123/lerobot-piper): About Use Lerobot to collect piper robot arm data, and perform training and reasoning [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/lykycy123/lerobot-piper">](https://github.com/lykycy123/lerobot-piper)
 - [Lerobot-koch](https://github.com/LilyHuang-HZ/Lerobot-koch): LeRobot Training Notes for Koch Arm [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/LilyHuang-HZ/Lerobot-koch">](https://github.com/LilyHuang-HZ/Lerobot-koch)
+- [LeFranX](https://github.com/wengmister/LeFranX): Franka and XHand Extension for LeRobot [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/wengmister/LeFranX">](https://github.com/wengmister/LeFranX)
+- [U-Arm](https://github.com/MINT-SJTU/LeRobot-Anything-U-Arm): Lerobot-Everything-Cross-Embodiment-Teleoperation [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/MINT-SJTU/LeRobot-Anything-U-Arm">](https://github.com/MINT-SJTU/LeRobot-Anything-U-Arm)
+- [lerobot-robot-xarm](https://github.com/SpesRobotics/lerobot-robot-xarm): xArm integration for LeRobot [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/SpesRobotics/lerobot-robot-xarm">](https://github.com/SpesRobotics/lerobot-robot-xarm)
 
 ### Hardware
 
@@ -113,6 +122,10 @@ A curated collection of utilities for [LeRobot Projects](https://github.com/hugg
 - [Physical AI Tools](https://github.com/ROBOTIS-GIT/physical_ai_tools): Physical AI Development Interface with LeRobot and ROS 2 [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ROBOTIS-GIT/physical_ai_tools">](https://github.com/ROBOTIS-GIT/physical_ai_tools)
 - [LeRobot.js](https://github.com/TimPietrusky/lerobot.js): interact with your robot in JS, inspired by LeRobot [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/TimPietrusky/lerobot.js">](https://github.com/TimPietrusky/lerobot.js)
 - [LeLab](https://github.com/nicolas-rabault/leLab): A web UI interface on top of lerobot [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/nicolas-rabault/leLab">](https://github.com/nicolas-rabault/leLab)
+- [LeRobot Episode Scoring Toolkit](https://github.com/RoboticsData/score_lerobot_episodes): One-click tool to score, filter, and export higher-quality LeRobot datasets [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/RoboticsData/score_lerobot_episodes">](https://github.com/RoboticsData/score_lerobot_episodes)
+- [LERO](https://github.com/masato-ka/lero): LeRobot dataset operations toolkit [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/masato-ka/lero">](https://github.com/masato-ka/lero)
+- [LeRobot Dataset Visualizer](https://github.com/huggingface/lerobot-dataset-visualizer): Web application for visualizing robotics datasets in LeRobot format [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/huggingface/lerobot-dataset-visualizer">](https://github.com/huggingface/lerobot-dataset-visualizer)
+- [lerobot_so101_teleop](https://github.com/liorbenhorin/lerobot_so101_teleop): Sample Environment for the LeRobot SO-101 Robot in Isaac Lab to collect demonstrations in a simulation [<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/liorbenhorin/lerobot_so101_teleop">](https://github.com/liorbenhorin/lerobot_so101_teleop)
 
 ## 👷‍♂️ Contributing
 
